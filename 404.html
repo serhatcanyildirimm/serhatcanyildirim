@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 — Pagina niet gevonden · Serhatcan Yildirim</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#f3f1e7">
+
+  <!-- Redirect naar de homepage na 6 seconden -->
+  <meta http-equiv="refresh" content="6;url=/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .nf {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: var(--pad);
+      background: var(--bg);
+    }
+    .nf-code {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: clamp(96px, 22vw, 220px);
+      line-height: 0.9;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      margin: 0;
+    }
+    .nf-code .accent { color: var(--accent); }
+    .nf-eyebrow {
+      font-size: 11.5px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin: 24px 0 12px;
+    }
+    .nf-title {
+      font-family: var(--serif);
+      font-weight: 400;
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.1;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      margin: 0 0 12px;
+    }
+    .nf-sub {
+      max-width: 420px;
+      color: var(--muted);
+      font-size: 16px;
+      margin: 0 0 28px;
+    }
+    .nf-cta {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+    .nf-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent);
+      color: #fff;
+      padding: 13px 22px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 15px;
+      transition: background .2s ease;
+    }
+    .nf-btn:hover { background: var(--accent-dark); color: #fff; }
+    .nf-link {
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 15px;
+    }
+    .nf-link:hover { color: var(--ink); }
+    .nf-redirect {
+      margin-top: 40px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .nf-redirect b { color: var(--ink); font-weight: 600; }
+  </style>
+</head>
+<body>
+
+  <main class="nf" role="main">
+    <p class="nf-code">4<span class="accent">0</span>4</p>
+
+    <div class="nf-eyebrow">Oeps</div>
+    <h1 class="nf-title">Deze pagina bestaat niet.</h1>
+    <p class="nf-sub">De pagina die je zocht is verplaatst of bestaat niet meer. Geen zorgen — ik breng je terug naar de homepage.</p>
+
+    <div class="nf-cta">
+      <a class="nf-btn" href="/">Terug naar home <span aria-hidden="true">→</span></a>
+      <a class="nf-link" href="https://wa.me/31626569696" target="_blank" rel="noopener">Neem contact op</a>
+    </div>
+
+    <p class="nf-redirect">Je wordt automatisch teruggestuurd in <b id="count">6</b> seconden…</p>
+  </main>
+
+  <script>
+    (function () {
+      var n = 6;
+      var el = document.getElementById('count');
+      var t = setInterval(function () {
+        n -= 1;
+        if (el) el.textContent = n;
+        if (n <= 0) {
+          clearInterval(t);
+          window.location.href = '/';
+        }
+      }, 1000);
+    })();
+  </script>
+</body>
+</html>

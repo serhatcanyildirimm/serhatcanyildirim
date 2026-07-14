@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="-3 -3 70 70" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VisualStack logo">
+  <title>VisualStack</title>
+  <defs>
+    <mask id="vs-gap-1">
+      <rect x="-3" y="-3" width="70" height="70" fill="#fff"></rect>
+      <rect x="4" y="4" width="49" height="49" rx="15" fill="#000"></rect>
+      <rect x="14" y="14" width="49" height="49" rx="15" fill="#000"></rect>
+    </mask>
+    <mask id="vs-gap-2">
+      <rect x="-3" y="-3" width="70" height="70" fill="#fff"></rect>
+      <rect x="14" y="14" width="49" height="49" rx="15" fill="#000"></rect>
+    </mask>
+  </defs>
+  <rect x="0" y="0" width="43" height="43" rx="12" fill="#ddd0fb" mask="url(#vs-gap-1)"></rect>
+  <rect x="10" y="10" width="43" height="43" rx="12" fill="#9c6df0" mask="url(#vs-gap-2)"></rect>
+  <rect x="20" y="20" width="43" height="43" rx="12" fill="#5b21b6"></rect>
+</svg>
