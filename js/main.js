@@ -13,7 +13,7 @@
         titleA: 'Meer klanten uit je website',
         titleAccent: 'met een sterk ontwerp',
         titleTail: '.',
-        sub: 'Ik ontwerp en bouw websites en webshops voor ondernemers. Snel, goed vindbaar en gemaakt om te converteren.',
+        sub: 'Wij ontwerpen en bouwen websites en webshops voor ondernemers. Snel, goed vindbaar en gemaakt om te converteren.',
         ctaPrimary: 'Plan een gesprek',
         ctaSecondary: 'WhatsApp openen'
       },
@@ -22,7 +22,7 @@
         { n: '10+', l: 'projecten opgeleverd' },
         { n: '< 1 dag', l: 'reactie op je aanvraag' }
       ],
-      servicesEyebrow: 'WAT IK DOE',
+      servicesEyebrow: 'WAT WE DOEN',
       servicesTitle: 'Alles voor je online aanwezigheid.',
       services: [
         { t: 'Websites & landingspagina’s', d: 'Een site die bezoekers omzet in klanten. Snel, strak en goed vindbaar.' },
@@ -32,8 +32,8 @@
       ],
       servicesFoot: 'Ook mogelijk: webshop-koppelingen, e-mailmarketing en branding.',
       workEyebrow: 'RECENT WERK',
-      workTitle: 'Een greep uit mijn werk',
-      workSub: 'Websites en webshops die ik bouwde voor ondernemers door heel Nederland.',
+      workTitle: 'Een greep uit ons werk',
+      workSub: 'Websites en webshops die wij bouwden voor ondernemers door heel Nederland.',
       projects: [
         { tag: 'Reparatie · Webshop' },
         { tag: 'Studio · Portfolio' },
@@ -48,34 +48,34 @@
         { q: 'Strakke site en altijd bereikbaar. Echt een aanrader.', a: 'Oprichter · visualstack.nl · via Google' }
       ],
       stepsEyebrow: 'HOE HET WERKT',
-      stepsTitle: 'In drie stappen live',
+      stepsTitle: 'De aanpak in drie stappen',
       steps: [
-        { t: 'Kennismaking', d: 'We bespreken wat je nodig hebt. Eerlijk advies, geen verplichting.' },
-        { t: 'Ik bouw het', d: 'Je krijgt een duidelijk plan en een vaste prijs. In dagen tot weken live.' },
-        { t: 'Live & onderhoud', d: 'De site staat live. Ik blijf bereikbaar voor updates en groei.' }
+        { t: 'Strategie', d: 'We ontdekken en formuleren jouw Why, missie, visie, kernwaarden en ambities. We bepalen wat echt belangrijk is en waar de organisatie naartoe wil.' },
+        { t: 'Plan van Aanpak', d: 'We vertalen de strategie naar concrete doelen, prioriteiten, verantwoordelijkheden en acties. Geen dikke rapporten, maar een praktisch en begrijpelijk plan.' },
+        { t: 'Realisatie', d: 'Een strategie heeft pas waarde wanneer deze wordt uitgevoerd. We begeleiden de implementatie, creëren eigenaarschap en zorgen dat plannen daadwerkelijk resultaten worden.' }
       ],
       aboutEyebrow: 'OVER SERHATCAN',
-      aboutBody1: 'Ik bouw websites en webshops voor ondernemers door heel Nederland. Van het eerste ontwerp tot livegang en onderhoud — alles onder één dak.',
-      aboutBody2: 'Je werkt rechtstreeks met mij: korte lijnen, snelle reactie en geen tussenlagen die alles vertragen.',
-      aboutBody3a: 'Daarnaast ben ik co-founder van',
-      aboutBody3b: ', een GPS-kloksysteem voor bedrijven.',
+      aboutBody1: 'Wij bouwen websites en webshops voor ondernemers door heel Nederland. Van het eerste ontwerp tot livegang en onderhoud — alles onder één dak.',
+      aboutBody2: 'Je werkt rechtstreeks met ons: korte lijnen, snelle reactie en geen tussenlagen die alles vertragen.',
+      aboutBody3a: 'Daarnaast hebben we',
+      aboutBody3b: ' opgericht, een GPS-kloksysteem voor bedrijven.',
       contactEyebrow: 'AAN DE SLAG',
       contactTitle: 'Plan een gesprek',
-      contactSub: 'Vertel kort waar je mee zit. Je hoort binnen één werkdag van me, met eerlijk advies. Helemaal vrijblijvend.',
-      checks: ['Reactie binnen één werkdag', 'Eerlijk advies, geen verkooppraat', 'Je werkt direct met mij'],
+      contactSub: 'Vertel kort waar je mee zit. Je hoort binnen één werkdag van ons, met eerlijk advies. Helemaal vrijblijvend.',
+      checks: ['Reactie binnen één werkdag', 'Eerlijk advies, geen verkooppraat', 'Je werkt direct met ons'],
       waBtn: 'WhatsApp openen',
       form: {
         name: 'Naam', email: 'E-mail', phone: 'Telefoon / WhatsApp', website: 'Website',
-        message: 'Waar kan ik je mee helpen?', submit: 'Verstuur bericht',
+        message: 'Waar kunnen we je mee helpen?', submit: 'Verstuur bericht',
         namePh: 'Je naam', emailPh: 'naam@bedrijf.nl', phonePh: '+31 6 12 34 56 78',
         websitePh: 'https://jouwbedrijf.nl',
         messagePh: 'Bijv. een nieuwe website, een webshop, of onderhoud aan je huidige site…'
       },
       formFoot: 'Reactie < 1 werkdag · Geen spam',
       sending: 'Versturen…',
-      sendError: 'Er ging iets mis. Probeer het later opnieuw of mail me direct.',
+      sendError: 'Er ging iets mis. Probeer het later opnieuw of mail ons direct.',
       sentTitle: 'Bericht verstuurd',
-      sentMsg: 'Bedankt! Ik reageer binnen één werkdag.',
+      sentMsg: 'Bedankt! We reageren binnen één werkdag.',
       footerTagline: 'Websites · webshops · onderhoud',
       footerCopy: '© 2026 Serhatcan Yildirim'
     },
@@ -86,7 +86,7 @@
         titleA: 'More customers from your website',
         titleAccent: 'with strong design',
         titleTail: '.',
-        sub: 'I design and build websites and webshops for entrepreneurs. Fast, easy to find and made to convert.',
+        sub: 'We design and build websites and webshops for entrepreneurs. Fast, easy to find and made to convert.',
         ctaPrimary: 'Book a call',
         ctaSecondary: 'Open WhatsApp'
       },
@@ -95,7 +95,7 @@
         { n: '10+', l: 'projects delivered' },
         { n: '< 1 day', l: 'reply to your request' }
       ],
-      servicesEyebrow: 'WHAT I DO',
+      servicesEyebrow: 'WHAT WE DO',
       servicesTitle: 'Everything for your online presence.',
       services: [
         { t: 'Websites & landing pages', d: 'A site that turns visitors into customers. Fast, clean and easy to find.' },
@@ -105,8 +105,8 @@
       ],
       servicesFoot: 'Also possible: shop integrations, email marketing and branding.',
       workEyebrow: 'RECENT WORK',
-      workTitle: 'A selection of my work',
-      workSub: 'Websites and webshops I built for entrepreneurs across the Netherlands.',
+      workTitle: 'A selection of our work',
+      workSub: 'Websites and webshops we built for entrepreneurs across the Netherlands.',
       projects: [
         { tag: 'Repair · Webshop' },
         { tag: 'Studio · Portfolio' },
@@ -121,34 +121,34 @@
         { q: 'Clean site and always reachable. Highly recommended.', a: 'Founder · visualstack.nl · via Google' }
       ],
       stepsEyebrow: 'HOW IT WORKS',
-      stepsTitle: 'Live in three steps',
+      stepsTitle: 'Our approach in three steps',
       steps: [
-        { t: 'Intro call', d: 'We discuss what you need. Honest advice, no obligation.' },
-        { t: 'I build it', d: 'You get a clear plan and a fixed price. Live in days to weeks.' },
-        { t: 'Live & maintenance', d: 'Your site goes live. I stay reachable for updates and growth.' }
+        { t: 'Strategy', d: 'We uncover and define your Why, mission, vision, core values and ambitions. We decide what really matters and where the organisation wants to go.' },
+        { t: 'Plan of approach', d: 'We translate the strategy into concrete goals, priorities, responsibilities and actions. No thick reports, but a practical plan that is easy to follow.' },
+        { t: 'Execution', d: 'A strategy only has value once it is carried out. We guide the implementation, create ownership and make sure plans actually turn into results.' }
       ],
       aboutEyebrow: 'ABOUT SERHATCAN',
-      aboutBody1: 'I build websites and webshops for entrepreneurs across the Netherlands. From first design to launch and maintenance — all under one roof.',
-      aboutBody2: 'You work directly with me: short lines, quick replies and no layers in between slowing things down.',
-      aboutBody3a: "I'm also co-founder of",
+      aboutBody1: 'We build websites and webshops for entrepreneurs across the Netherlands. From first design to launch and maintenance — all under one roof.',
+      aboutBody2: 'You work directly with us: short lines, quick replies and no layers in between slowing things down.',
+      aboutBody3a: 'We also co-founded',
       aboutBody3b: ', a GPS time-clock system for businesses.',
       contactEyebrow: 'GET STARTED',
       contactTitle: 'Book a call',
-      contactSub: 'Tell me briefly what you need. You’ll hear back within one business day, with honest advice. No obligation.',
-      checks: ['Reply within one business day', 'Honest advice, no sales talk', 'You work directly with me'],
+      contactSub: 'Tell us briefly what you need. You’ll hear back within one business day, with honest advice. No obligation.',
+      checks: ['Reply within one business day', 'Honest advice, no sales talk', 'You work directly with us'],
       waBtn: 'Open WhatsApp',
       form: {
         name: 'Name', email: 'Email', phone: 'Phone / WhatsApp', website: 'Website',
-        message: 'How can I help you?', submit: 'Send message',
+        message: 'How can we help you?', submit: 'Send message',
         namePh: 'Your name', emailPh: 'name@company.com', phonePh: '+31 6 12 34 56 78',
         websitePh: 'https://yourcompany.com',
         messagePh: 'E.g. a new website, a webshop, or maintenance on your current site…'
       },
       formFoot: 'Reply < 1 business day · No spam',
       sending: 'Sending…',
-      sendError: 'Something went wrong. Please try again later or email me directly.',
+      sendError: 'Something went wrong. Please try again later or email us directly.',
       sentTitle: 'Message sent',
-      sentMsg: 'Thanks! I’ll reply within one business day.',
+      sentMsg: 'Thanks! We’ll reply within one business day.',
       footerTagline: 'Websites · webshops · maintenance',
       footerCopy: '© 2026 Serhatcan Yildirim'
     }
