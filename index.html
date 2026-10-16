@@ -15,13 +15,21 @@
   <meta property="og:locale" content="nl_NL">
   <meta property="og:locale:alternate" content="en_US">
   <meta property="og:url" content="https://serhatcan.nl/">
+  <meta property="og:image" content="https://serhatcanyildirim.nl/assets/serhat.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" as="image" href="assets/serhat.webp" type="image/webp">
 </head>
 <body>
+  <div class="preloader" aria-hidden="true">
+    <div class="preloader-name"><span class="pl-mask"><span class="preloader-word">Serhatcan</span></span> <span class="pl-mask"><span class="preloader-word preloader-word--accent">Yildirim</span></span></div>
+    <div class="preloader-bar"></div>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"></div>
 
   <main class="card" role="main">
 
@@ -41,6 +49,8 @@
 
     <!-- ========================================================== Hero -->
     <header class="hero" id="top">
+      <div class="hero-grid">
+      <div class="hero-text">
       
       <h1>
         <span data-i18n="hero.titleA">Meer klanten uit je website</span>
@@ -71,7 +81,38 @@
           <div class="stat-label" data-i18n="stats.2.l">reactie op je aanvraag</div>
         </div>
       </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-visual-inner">
+          <figure class="hero-photo">
+            <picture>
+              <source srcset="assets/serhat.webp" type="image/webp">
+              <img src="assets/serhat.jpg" alt="Serhatcan Yildirim" width="900" height="1395" fetchpriority="high">
+            </picture>
+          </figure>
+          <div class="hero-badge" aria-hidden="true">
+            <svg class="hero-badge-ring" viewBox="0 0 120 120">
+              <defs><path id="badge-circle" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+              <text><textPath href="#badge-circle" textLength="286" lengthAdjust="spacing" data-i18n="heroBadge">BESCHIKBAAR VOOR PROJECTEN • </textPath></text>
+            </svg>
+            <span class="hero-badge-core">✦</span>
+          </div>
+          <span class="chip chip--1"><span class="chip-dot"></span>Websites</span>
+          <span class="chip chip--2">Webshops</span>
+          <span class="chip chip--3">Co-founder <b>Klokit</b></span>
+        </div>
+      </div>
+      </div>
     </header>
+
+    <!-- ======================================================= Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Websites</span><i>✦</i><span>Webshops</span><i>✦</i><span>Web-apps</span><i>✦</i><span>SEO</span><i>✦</i><span>Hosting</span><i>✦</i><span>Branding</span><i>✦</i>
+        <span>Websites</span><i>✦</i><span>Webshops</span><i>✦</i><span>Web-apps</span><i>✦</i><span>SEO</span><i>✦</i><span>Hosting</span><i>✦</i><span>Branding</span><i>✦</i>
+      </div>
+    </div>
 
     <!-- ====================================================== Services -->
     <section class="section reveal" id="services" aria-labelledby="services-title">
@@ -227,7 +268,13 @@
 
     <!-- ========================================================= About -->
     <section class="section section--paper reveal" id="about" aria-labelledby="about-eyebrow">
-      <div class="eyebrow about-eyebrow" id="about-eyebrow" data-i18n="aboutEyebrow">OVER SERHATCAN</div>
+      <div class="about-head">
+        <picture>
+          <source srcset="assets/serhat-avatar.webp" type="image/webp">
+          <img class="about-avatar" src="assets/serhat-avatar.jpg" alt="" width="120" height="120" loading="lazy">
+        </picture>
+        <div class="eyebrow about-eyebrow" id="about-eyebrow" data-i18n="aboutEyebrow">OVER SERHATCAN</div>
+      </div>
       <p class="about-lead" data-i18n="aboutBody1">Wij bouwen websites en webshops voor ondernemers door heel Nederland. Van het eerste ontwerp tot livegang en onderhoud — alles onder één dak.</p>
       <p class="about-body" data-i18n="aboutBody2">Je werkt rechtstreeks met ons: korte lijnen, snelle reactie en geen tussenlagen die alles vertragen.</p>
       <p class="about-body"><span data-i18n="aboutBody3a">Daarnaast hebben we</span> <a href="https://klokit.nl" target="_blank" rel="noopener">klokit.nl</a><span data-i18n="aboutBody3b"> opgericht, een GPS-kloksysteem voor bedrijven.</span></p>
@@ -310,7 +357,9 @@
 
   </main>
 
-  <script src="js/convex.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/vendor/gsap.min.js"></script>
+  <script src="js/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/motion.js"></script>
 </body>
 </html>

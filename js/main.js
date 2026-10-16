@@ -49,6 +49,7 @@
       ],
       stepsEyebrow: 'HOE HET WERKT',
       stepsTitle: 'De aanpak in drie stappen',
+      heroBadge: 'BESCHIKBAAR VOOR PROJECTEN • ',
       steps: [
         { t: 'Strategie', d: 'We ontdekken en formuleren jouw Why, missie, visie, kernwaarden en ambities. We bepalen wat echt belangrijk is en waar de organisatie naartoe wil.' },
         { t: 'Plan van Aanpak', d: 'We vertalen de strategie naar concrete doelen, prioriteiten, verantwoordelijkheden en acties. Geen dikke rapporten, maar een praktisch en begrijpelijk plan.' },
@@ -122,6 +123,7 @@
       ],
       stepsEyebrow: 'HOW IT WORKS',
       stepsTitle: 'Our approach in three steps',
+      heroBadge: 'AVAILABLE FOR NEW PROJECTS • ',
       steps: [
         { t: 'Strategy', d: 'We uncover and define your Why, mission, vision, core values and ambitions. We decide what really matters and where the organisation wants to go.' },
         { t: 'Plan of approach', d: 'We translate the strategy into concrete goals, priorities, responsibilities and actions. No thick reports, but a practical plan that is easy to follow.' },
