@@ -39,7 +39,8 @@
         { tag: 'Studio · Portfolio' },
         { tag: 'Printerinkt · Webshop' },
         { tag: 'UV-C waterdesinfectie · Offerte' },
-        { tag: 'Voorspellingen · Web-app' }
+        { tag: 'Voorspellingen · Web-app' },
+        { tag: 'Co-founder · GPS-kloksysteem' }
       ],
       workFoot: 'En nog veel meer. Vraag gerust naar voorbeelden uit jouw branche.',
       reviews: [
@@ -111,7 +112,8 @@
         { tag: 'Studio · Portfolio' },
         { tag: 'Printer ink · Webshop' },
         { tag: 'UV-C water disinfection · Quote' },
-        { tag: 'Predictions · Web app' }
+        { tag: 'Predictions · Web app' },
+        { tag: 'Co-founder · GPS time-clock system' }
       ],
       workFoot: 'And plenty more. Just ask for examples from your industry.',
       reviews: [
