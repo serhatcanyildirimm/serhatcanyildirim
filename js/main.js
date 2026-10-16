@@ -37,7 +37,7 @@
       projects: [
         { tag: 'Reparatie · Webshop' },
         { tag: 'Studio · Portfolio' },
-        { tag: 'Platform · Community' },
+        { tag: 'Printerinkt · Webshop' },
         { tag: 'UV-C waterdesinfectie · Offerte' },
         { tag: 'Voorspellingen · Web-app' }
       ],
@@ -107,7 +107,7 @@
       projects: [
         { tag: 'Repair · Webshop' },
         { tag: 'Studio · Portfolio' },
-        { tag: 'Platform · Community' },
+        { tag: 'Printer ink · Webshop' },
         { tag: 'UV-C water disinfection · Quote' },
         { tag: 'Predictions · Web app' }
       ],

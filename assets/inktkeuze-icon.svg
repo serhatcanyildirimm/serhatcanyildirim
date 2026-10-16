@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0F1B2D"/>
+  <path d="M14 8c-3 5-5 8-5 11a5 5 0 0 0 10 0c0-3-2-6-5-11z" fill="#00A3D9"/>
+  <path d="M27 8c-3 5-5 8-5 11a5 5 0 0 0 10 0c0-3-2-6-5-11z" fill="#E0197A"/>
+  <path d="M40 8c-3 5-5 8-5 11a5 5 0 0 0 10 0c0-3-2-6-5-11z" fill="#FFE600"/>
+  <path d="M53 8c-3 5-5 8-5 11a5 5 0 0 0 10 0c0-3-2-6-5-11z" fill="#FFFFFF"/>
+  <rect x="6" y="30" width="52" height="26" rx="4" fill="#FFE600"/>
+  <text x="32" y="49" text-anchor="middle" font-family="Arial, sans-serif" font-weight="900" font-size="15" fill="#0F1B2D">INKT</text>
+</svg>
