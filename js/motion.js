@@ -237,7 +237,15 @@
   });
 
   /* ------------------------------------------------------ Contact ------ */
-  gsap.from('.check, .contact-links > *', {
+  gsap.from('.contact-card', {
+    y: 40, autoAlpha: 0, duration: .9, ease: 'power3.out',
+    scrollTrigger: { trigger: '.contact-card', start: 'top 88%' }
+  });
+  gsap.from('.app-icon', {
+    y: 24, scale: .6, autoAlpha: 0, duration: .7, stagger: .08, ease: 'back.out(2)',
+    scrollTrigger: { trigger: '.app-icons', start: 'top 92%' }
+  });
+  gsap.from('.check', {
     x: -20, autoAlpha: 0, duration: .7, stagger: .07, ease: 'power3.out',
     scrollTrigger: { trigger: '#contact', start: 'top 75%' }
   });
