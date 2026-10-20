@@ -959,7 +959,7 @@ h1, h2, h3, .about-lead { overflow-wrap: break-word; }
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 22px;
-  padding: 34px 26px 28px;
+  padding: 34px 26px 32px;
   text-align: center;
 }
 .contact-card-photo {
@@ -1007,11 +1007,5 @@ h1, h2, h3, .about-lead { overflow-wrap: break-word; }
 .app-icon--mail { background: linear-gradient(180deg, #5ec2fb, #1f7ff0); }
 .app-icon--wa { background: linear-gradient(180deg, #6fe07b, #25b14a); }
 .app-icon--li { background: #0a66c2; }
-.contact-card-note {
-  margin-top: 20px;
-  font-size: 14px;
-  line-height: 1.5;
-  color: var(--muted);
-}
 @media (max-width: 900px) { .contact-card { max-width: none; } }
 @media (max-width: 380px) { .app-icons { gap: 10px; } .app-icon { width: 50px; height: 50px; } }
