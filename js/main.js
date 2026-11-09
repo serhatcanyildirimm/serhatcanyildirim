@@ -52,7 +52,7 @@
       projects: [
         { tag: 'Co-founder · GPS-kloksysteem' },
         { tag: 'Software & strategie' },
-        { tag: 'Groeistrategie · SEO' },
+        { tag: 'Groeistrategie' },
         { tag: 'Printerinkt · Webshop' },
         { tag: 'Reparatie · Webshop' },
         { tag: 'UV-C waterdesinfectie · Offerte' },
@@ -136,7 +136,7 @@
       projects: [
         { tag: 'Co-founder · GPS time-clock system' },
         { tag: 'Software & strategy' },
-        { tag: 'Growth strategy · SEO' },
+        { tag: 'Growth strategy' },
         { tag: 'Printer ink · Webshop' },
         { tag: 'Repair · Webshop' },
         { tag: 'UV-C water disinfection · Quote' },
