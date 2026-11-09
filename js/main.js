@@ -14,8 +14,7 @@
         titleAccent: '& strategisch adviseur',
         titleTail: '.',
         sub: 'Ik bouw software die echt gebruikt wordt, zet AI-tools slim in en help bedrijven groeien met een heldere strategie. Medeoprichter van Klokit.',
-        ctaPrimary: 'Neem contact op',
-        ctaSecondary: 'Download mijn cv'
+        ctaPrimary: 'Neem contact op'
       },
       stats: [
         { n: '8+', l: 'projecten live' },
@@ -98,8 +97,7 @@
         titleAccent: '& strategic advisor',
         titleTail: '.',
         sub: 'I build software people actually use, put AI tools to smart use and help businesses grow with a clear strategy. Co-founder of Klokit.',
-        ctaPrimary: 'Get in touch',
-        ctaSecondary: 'Download my CV'
+        ctaPrimary: 'Get in touch'
       },
       stats: [
         { n: '8+', l: 'projects live' },
