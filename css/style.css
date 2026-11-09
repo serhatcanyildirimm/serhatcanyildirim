@@ -1009,3 +1009,6 @@ h1, h2, h3, .about-lead { overflow-wrap: break-word; }
 .app-icon--li { background: #0a66c2; }
 @media (max-width: 900px) { .contact-card { max-width: none; } }
 @media (max-width: 380px) { .app-icons { gap: 10px; } .app-icon { width: 50px; height: 50px; } }
+
+/* Experience meta line (company · period) */
+.step-meta { font-size: 13px; font-weight: 600; color: var(--accent); margin: 0 0 10px; }

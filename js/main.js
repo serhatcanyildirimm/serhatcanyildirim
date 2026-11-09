@@ -8,152 +8,171 @@
   /* ---------------------------------------------------------- Content ---- */
   var CONTENT = {
     nl: {
-      nav: { work: 'Werk', services: 'Diensten', contact: 'Contact' },
+      nav: { experience: 'Ervaring', work: 'Projecten', contact: 'Contact' },
       hero: {
-        titleA: 'Meer klanten uit je website',
-        titleAccent: 'met een sterk ontwerp',
+        titleA: 'Software developer',
+        titleAccent: '& strategisch adviseur',
         titleTail: '.',
-        sub: 'Wij ontwerpen en bouwen websites en webshops voor ondernemers. Snel, goed vindbaar en gemaakt om te converteren.',
-        ctaPrimary: 'Plan een gesprek',
-        ctaSecondary: 'WhatsApp openen'
+        sub: 'Ik bouw software die echt gebruikt wordt, zet AI-tools slim in en help bedrijven groeien met een heldere strategie. Medeoprichter van Klokit.',
+        ctaPrimary: 'Neem contact op',
+        ctaSecondary: 'Download mijn cv'
       },
       stats: [
-        { n: '3+', l: 'jaar ervaring in web & design' },
-        { n: '10+', l: 'projecten opgeleverd' },
-        { n: '< 1 dag', l: 'reactie op je aanvraag' }
+        { n: '8+', l: 'projecten live' },
+        { n: '3', l: 'werkgevers & eigen bedrijf' },
+        { n: '3', l: 'talen vloeiend: NL, TR, EN' }
       ],
-      servicesEyebrow: 'WAT WE DOEN',
-      servicesTitle: 'Alles voor je online aanwezigheid.',
-      services: [
-        { t: 'Websites & landingspagina’s', d: 'Een site die bezoekers omzet in klanten. Snel, strak en goed vindbaar.' },
-        { t: 'Webshops', d: 'Verkoop online met een shop die is ingericht om te converteren.' },
-        { t: 'Onderhoud & hosting', d: 'Snel, veilig en altijd up-to-date. Jij hoeft nergens naar om te kijken.' },
-        { t: 'SEO & vindbaarheid', d: 'Gevonden worden door de mensen die actief naar jou zoeken.' }
+      heroBadge: 'OPEN VOOR EEN NIEUWE ROL • ',
+      chip2: 'Strategie',
+      aboutEyebrow: 'OVER MIJ',
+      aboutBody1: 'Developer die software bouwt die echt gebruikt wordt. Leergierig, oplossingsgericht en klaar voor de volgende stap in een team waar kwaliteit telt.',
+      aboutBody2: 'Ik zet AI-tools slim in om sneller en beter te ontwikkelen, en kijk altijd verder dan de code: wat levert het op voor de gebruiker en voor het bedrijf?',
+      aboutBody3a: 'Als medeoprichter van',
+      aboutBody3b: ' weet ik wat het is om een product van idee naar klant te brengen.',
+      experienceEyebrow: 'WERKERVARING',
+      experienceTitle: 'Waar ik heb gewerkt',
+      experience: [
+        { t: 'Medeoprichter', m: 'Klokit · aug 2026 – heden', d: 'Bouw mee aan een SaaS waarmee medewerkers via hun telefoon in- en uitklokken met GPS-verificatie. Verantwoordelijk voor nieuwe features, verkoop en klantondersteuning.' },
+        { t: 'Software Developer & Strategisch Adviseur', m: 'Smart Concepts B.V. · okt 2025 – sep 2026', d: 'Webpagina’s en functionaliteit ontwikkeld in Laravel. Groeistrategie opgezet voor Tandartspraktijk Elspeet met wekelijks overleg op locatie: SEO, marketing en conversie, met als doel 30% meer omzet.' },
+        { t: 'Laravel Developer (stage)', m: 'International Affairs Group B.V. · feb 2025 – jun 2025', d: 'Meegebouwd aan interne Laravel-applicaties, waaronder het ticketingsysteem, en features voor planning en ticketvalidatie die dagelijks in gebruik zijn.' }
       ],
-      servicesFoot: 'Ook mogelijk: webshop-koppelingen, e-mailmarketing en branding.',
-      workEyebrow: 'RECENT WERK',
-      workTitle: 'Een greep uit ons werk',
-      workSub: 'Websites en webshops die wij bouwden voor ondernemers door heel Nederland.',
+      skillsEyebrow: 'VAARDIGHEDEN',
+      skillsTitle: 'Wat ik meebreng.',
+      skills: [
+        { t: 'Backend', d: 'C#, .NET, ASP.NET MVC, PHP, Laravel en REST API’s.' },
+        { t: 'Frontend', d: 'TypeScript, JavaScript, React, Vue, Tailwind CSS, HTML en CSS.' },
+        { t: 'Databases & tools', d: 'SQL, Microsoft SQL Server, Git, GitHub, Docker, Winter CMS en ClickUp.' },
+        { t: 'AI-tools', d: 'AI-codeerassistenten, prompt engineering en LLM-API-integratie.' },
+        { t: 'Strategie & groei', d: 'Groeistrategie, SEO, marketing en conversie-optimalisatie, in direct overleg met de klant.' }
+      ],
+      skillsFoot: 'Soft skills: klantcontact, communicatie, samenwerken, probleemoplossend en aanpassingsvermogen. Werkwijze: OOP en Scrum.',
+      workEyebrow: 'PROJECTEN',
+      workTitle: 'Een greep uit mijn werk',
+      workSub: 'Websites, webshops en applicaties waar ik aan heb gewerkt.',
       projects: [
-        { tag: 'Reparatie · Webshop' },
-        { tag: 'Studio · Portfolio' },
+        { tag: 'Co-founder · GPS-kloksysteem' },
+        { tag: 'Software & strategie' },
+        { tag: 'Groeistrategie · SEO' },
         { tag: 'Printerinkt · Webshop' },
+        { tag: 'Reparatie · Webshop' },
         { tag: 'UV-C waterdesinfectie · Offerte' },
-        { tag: 'Voorspellingen · Web-app' },
-        { tag: 'Co-founder · GPS-kloksysteem' }
+        { tag: 'Studio · Portfolio' },
+        { tag: 'Voorspellingen · Web-app' }
       ],
-      workFoot: 'En nog veel meer. Vraag gerust naar voorbeelden uit jouw branche.',
       reviews: [
         { q: 'Snel geschakeld en precies wat ik zocht. Denkt goed mee.', a: 'Eigenaar · ifixiteasy.nl · via Google' },
         { q: 'Strakke site en altijd bereikbaar. Echt een aanrader.', a: 'Oprichter · visualstack.nl · via Google' }
       ],
-      stepsEyebrow: 'HOE HET WERKT',
-      stepsTitle: 'De aanpak in drie stappen',
-      heroBadge: 'BESCHIKBAAR VOOR PROJECTEN • ',
-      cardRole: 'Software Engineer · Co-founder Klokit',
-      steps: [
-        { t: 'Strategie', d: 'We ontdekken en formuleren jouw Why, missie, visie, kernwaarden en ambities. We bepalen wat echt belangrijk is en waar de organisatie naartoe wil.' },
-        { t: 'Plan van Aanpak', d: 'We vertalen de strategie naar concrete doelen, prioriteiten, verantwoordelijkheden en acties. Geen dikke rapporten, maar een praktisch en begrijpelijk plan.' },
-        { t: 'Realisatie', d: 'Een strategie heeft pas waarde wanneer deze wordt uitgevoerd. We begeleiden de implementatie, creëren eigenaarschap en zorgen dat plannen daadwerkelijk resultaten worden.' }
+      educationEyebrow: 'OPLEIDING',
+      educationTitle: 'Altijd aan het leren.',
+      education: [
+        { t: 'Full-Stack Developer – Beroepscertificaat', d: 'Microsoft · afronding nov 2026' },
+        { t: 'Software Developer, MBO niveau 4', d: 'Aventus · aug 2022 – feb 2026 · keuzedeel klantcontact en grafisch ontwerp' },
+        { t: 'Expert IT Systems and Devices, MBO niveau 4', d: 'Aventus · aug 2019 – jun 2022' }
       ],
-      aboutEyebrow: 'OVER SERHATCAN',
-      aboutBody1: 'Wij bouwen websites en webshops voor ondernemers door heel Nederland. Van het eerste ontwerp tot livegang en onderhoud — alles onder één dak.',
-      aboutBody2: 'Je werkt rechtstreeks met ons: korte lijnen, snelle reactie en geen tussenlagen die alles vertragen.',
-      aboutBody3a: 'Daarnaast hebben we',
-      aboutBody3b: ' opgericht, een GPS-kloksysteem voor bedrijven.',
-      contactEyebrow: 'AAN DE SLAG',
-      contactTitle: 'Plan een gesprek',
-      contactSub: 'Vertel kort waar je mee zit. Je hoort binnen één werkdag van ons, met eerlijk advies. Helemaal vrijblijvend.',
-      checks: ['Reactie binnen één werkdag', 'Eerlijk advies, geen verkooppraat', 'Je werkt direct met ons'],
+      cardRole: 'Software Developer & Strategisch Adviseur · Co-founder Klokit',
+      contactEyebrow: 'CONTACT',
+      contactTitle: 'Laten we kennismaken',
+      contactSub: 'Heb je een vacature, een project of wil je gewoon kennismaken? Stuur me een bericht, dan reageer ik binnen één werkdag.',
+      checks: ['Open voor een nieuwe rol als developer', 'Reactie binnen één werkdag', 'Direct contact, geen tussenpersonen'],
       waBtn: 'WhatsApp openen',
       form: {
-        name: 'Naam', email: 'E-mail', phone: 'Telefoon / WhatsApp', website: 'Website',
-        message: 'Waar kunnen we je mee helpen?', submit: 'Verstuur bericht',
+        name: 'Naam', email: 'E-mail', phone: 'Telefoon / WhatsApp', website: 'Bedrijf of vacature',
+        message: 'Je bericht', submit: 'Verstuur bericht',
         namePh: 'Je naam', emailPh: 'naam@bedrijf.nl', phonePh: '+31 6 12 34 56 78',
-        websitePh: 'https://jouwbedrijf.nl',
-        messagePh: 'Bijv. een nieuwe website, een webshop, of onderhoud aan je huidige site…'
+        websitePh: 'Bedrijfsnaam of link naar de vacature',
+        messagePh: 'Bijv. een vacature, een kennismaking of een project…'
       },
       formFoot: 'Reactie < 1 werkdag · Geen spam',
       sending: 'Versturen…',
-      sendError: 'Er ging iets mis. Probeer het later opnieuw of mail ons direct.',
+      sendError: 'Er ging iets mis. Probeer het later opnieuw of mail me direct.',
       sentTitle: 'Bericht verstuurd',
-      sentMsg: 'Bedankt! We reageren binnen één werkdag.',
-      footerTagline: 'Websites · webshops · onderhoud',
+      sentMsg: 'Bedankt! Ik reageer binnen één werkdag.',
+      footerTagline: 'Software Developer · Strategisch Adviseur',
       footerCopy: '© 2026 Serhatcan Yildirim'
     },
     en: {
-      nav: { work: 'Work', services: 'Services', contact: 'Contact' },
+      nav: { experience: 'Experience', work: 'Projects', contact: 'Contact' },
       hero: {
-        rating: 'Rated 5.0 on Google',
-        titleA: 'More customers from your website',
-        titleAccent: 'with strong design',
+        titleA: 'Software developer',
+        titleAccent: '& strategic advisor',
         titleTail: '.',
-        sub: 'We design and build websites and webshops for entrepreneurs. Fast, easy to find and made to convert.',
-        ctaPrimary: 'Book a call',
-        ctaSecondary: 'Open WhatsApp'
+        sub: 'I build software people actually use, put AI tools to smart use and help businesses grow with a clear strategy. Co-founder of Klokit.',
+        ctaPrimary: 'Get in touch',
+        ctaSecondary: 'Download my CV'
       },
       stats: [
-        { n: '3+', l: 'years in web & design' },
-        { n: '10+', l: 'projects delivered' },
-        { n: '< 1 day', l: 'reply to your request' }
+        { n: '8+', l: 'projects live' },
+        { n: '3', l: 'employers & own company' },
+        { n: '3', l: 'fluent languages: NL, TR, EN' }
       ],
-      servicesEyebrow: 'WHAT WE DO',
-      servicesTitle: 'Everything for your online presence.',
-      services: [
-        { t: 'Websites & landing pages', d: 'A site that turns visitors into customers. Fast, clean and easy to find.' },
-        { t: 'Webshops', d: 'Sell online with a shop built to convert.' },
-        { t: 'Maintenance & hosting', d: 'Fast, secure and always up to date. Nothing for you to worry about.' },
-        { t: 'SEO & visibility', d: 'Get found by the people actively searching for you.' }
+      heroBadge: 'OPEN TO A NEW ROLE • ',
+      chip2: 'Strategy',
+      aboutEyebrow: 'ABOUT ME',
+      aboutBody1: 'A developer who builds software people actually use. Eager to learn, solution-driven and ready for the next step in a team where quality matters.',
+      aboutBody2: 'I use AI tools to develop faster and better, and I always look beyond the code: what does it deliver for the user and for the business?',
+      aboutBody3a: 'As co-founder of',
+      aboutBody3b: ', I know what it takes to bring a product from idea to customer.',
+      experienceEyebrow: 'WORK EXPERIENCE',
+      experienceTitle: 'Where I have worked',
+      experience: [
+        { t: 'Co-founder', m: 'Klokit · Aug 2026 – present', d: 'Building a SaaS that lets employees clock in and out on their phone with GPS verification. Responsible for new features, sales and customer support.' },
+        { t: 'Software Developer & Strategic Advisor', m: 'Smart Concepts B.V. · Oct 2025 – Sep 2026', d: 'Developed web pages and functionality in Laravel. Set up a growth strategy for Tandartspraktijk Elspeet with weekly on-site meetings: SEO, marketing and conversion, aiming for 30% more revenue.' },
+        { t: 'Laravel Developer (intern)', m: 'International Affairs Group B.V. · Feb 2025 – Jun 2025', d: 'Helped build internal Laravel applications, including the ticketing system, and features for scheduling and ticket validation used every day.' }
       ],
-      servicesFoot: 'Also possible: shop integrations, email marketing and branding.',
-      workEyebrow: 'RECENT WORK',
-      workTitle: 'A selection of our work',
-      workSub: 'Websites and webshops we built for entrepreneurs across the Netherlands.',
+      skillsEyebrow: 'SKILLS',
+      skillsTitle: 'What I bring.',
+      skills: [
+        { t: 'Backend', d: 'C#, .NET, ASP.NET MVC, PHP, Laravel and REST APIs.' },
+        { t: 'Frontend', d: 'TypeScript, JavaScript, React, Vue, Tailwind CSS, HTML and CSS.' },
+        { t: 'Databases & tools', d: 'SQL, Microsoft SQL Server, Git, GitHub, Docker, Winter CMS and ClickUp.' },
+        { t: 'AI tools', d: 'AI coding assistants, prompt engineering and LLM API integration.' },
+        { t: 'Strategy & growth', d: 'Growth strategy, SEO, marketing and conversion optimisation, working directly with the client.' }
+      ],
+      skillsFoot: 'Soft skills: customer contact, communication, teamwork, problem solving and adaptability. Ways of working: OOP and Scrum.',
+      workEyebrow: 'PROJECTS',
+      workTitle: 'A selection of my work',
+      workSub: 'Websites, webshops and applications I have worked on.',
       projects: [
-        { tag: 'Repair · Webshop' },
-        { tag: 'Studio · Portfolio' },
+        { tag: 'Co-founder · GPS time-clock system' },
+        { tag: 'Software & strategy' },
+        { tag: 'Growth strategy · SEO' },
         { tag: 'Printer ink · Webshop' },
+        { tag: 'Repair · Webshop' },
         { tag: 'UV-C water disinfection · Quote' },
-        { tag: 'Predictions · Web app' },
-        { tag: 'Co-founder · GPS time-clock system' }
+        { tag: 'Studio · Portfolio' },
+        { tag: 'Predictions · Web app' }
       ],
-      workFoot: 'And plenty more. Just ask for examples from your industry.',
       reviews: [
         { q: 'Quick to respond and exactly what I was looking for. Really thinks along.', a: 'Owner · ifixiteasy.nl · via Google' },
         { q: 'Clean site and always reachable. Highly recommended.', a: 'Founder · visualstack.nl · via Google' }
       ],
-      stepsEyebrow: 'HOW IT WORKS',
-      stepsTitle: 'Our approach in three steps',
-      heroBadge: 'AVAILABLE FOR NEW PROJECTS • ',
-      cardRole: 'Software Engineer · Co-founder Klokit',
-      steps: [
-        { t: 'Strategy', d: 'We uncover and define your Why, mission, vision, core values and ambitions. We decide what really matters and where the organisation wants to go.' },
-        { t: 'Plan of approach', d: 'We translate the strategy into concrete goals, priorities, responsibilities and actions. No thick reports, but a practical plan that is easy to follow.' },
-        { t: 'Execution', d: 'A strategy only has value once it is carried out. We guide the implementation, create ownership and make sure plans actually turn into results.' }
+      educationEyebrow: 'EDUCATION',
+      educationTitle: 'Always learning.',
+      education: [
+        { t: 'Full-Stack Developer – Professional Certificate', d: 'Microsoft · completing Nov 2026' },
+        { t: 'Software Developer, MBO level 4', d: 'Aventus · Aug 2022 – Feb 2026 · elective in customer contact and graphic design' },
+        { t: 'Expert IT Systems and Devices, MBO level 4', d: 'Aventus · Aug 2019 – Jun 2022' }
       ],
-      aboutEyebrow: 'ABOUT SERHATCAN',
-      aboutBody1: 'We build websites and webshops for entrepreneurs across the Netherlands. From first design to launch and maintenance — all under one roof.',
-      aboutBody2: 'You work directly with us: short lines, quick replies and no layers in between slowing things down.',
-      aboutBody3a: 'We also co-founded',
-      aboutBody3b: ', a GPS time-clock system for businesses.',
-      contactEyebrow: 'GET STARTED',
-      contactTitle: 'Book a call',
-      contactSub: 'Tell us briefly what you need. You’ll hear back within one business day, with honest advice. No obligation.',
-      checks: ['Reply within one business day', 'Honest advice, no sales talk', 'You work directly with us'],
+      cardRole: 'Software Developer & Strategic Advisor · Co-founder Klokit',
+      contactEyebrow: 'CONTACT',
+      contactTitle: 'Let’s get acquainted',
+      contactSub: 'Have a vacancy, a project or just want to meet? Send me a message and I’ll reply within one business day.',
+      checks: ['Open to a new developer role', 'Reply within one business day', 'Direct contact, no middlemen'],
       waBtn: 'Open WhatsApp',
       form: {
-        name: 'Name', email: 'Email', phone: 'Phone / WhatsApp', website: 'Website',
-        message: 'How can we help you?', submit: 'Send message',
+        name: 'Name', email: 'Email', phone: 'Phone / WhatsApp', website: 'Company or vacancy',
+        message: 'Your message', submit: 'Send message',
         namePh: 'Your name', emailPh: 'name@company.com', phonePh: '+31 6 12 34 56 78',
-        websitePh: 'https://yourcompany.com',
-        messagePh: 'E.g. a new website, a webshop, or maintenance on your current site…'
+        websitePh: 'Company name or link to the vacancy',
+        messagePh: 'E.g. a vacancy, an introduction or a project…'
       },
       formFoot: 'Reply < 1 business day · No spam',
       sending: 'Sending…',
-      sendError: 'Something went wrong. Please try again later or email us directly.',
+      sendError: 'Something went wrong. Please try again later or email me directly.',
       sentTitle: 'Message sent',
-      sentMsg: 'Thanks! We’ll reply within one business day.',
-      footerTagline: 'Websites · webshops · maintenance',
+      sentMsg: 'Thanks! I’ll reply within one business day.',
+      footerTagline: 'Software Developer · Strategic Advisor',
       footerCopy: '© 2026 Serhatcan Yildirim'
     }
   };
