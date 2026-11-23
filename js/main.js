@@ -50,6 +50,7 @@
       workTitle: 'Een greep uit mijn werk',
       workSub: 'Websites, webshops en applicaties waar ik aan heb gewerkt.',
       projects: [
+        { tag: 'Eigenaar · Brandstofprijzen-app' },
         { tag: 'Co-founder · GPS-kloksysteem' },
         { tag: 'Software & strategie' },
         { tag: 'Groeistrategie' },
@@ -134,6 +135,7 @@
       workTitle: 'A selection of my work',
       workSub: 'Websites, webshops and applications I have worked on.',
       projects: [
+        { tag: 'Owner · Fuel price app' },
         { tag: 'Co-founder · GPS time-clock system' },
         { tag: 'Software & strategy' },
         { tag: 'Growth strategy' },
